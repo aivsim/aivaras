@@ -1,0 +1,28 @@
+FROM THE ROOT:
+> hugo server - to run local server
+> hugo server --buildDrafts to include blog posts
+> hugo - to build to public folder
+> hugo version
+> hugo help
+> hugo new site <website/folder-name>
+> hugo new post/<post-name>.md
+> hugo server --theme=<theme-folder>
+
+FROM THEMES:
+> git clone https://github.com/dim0627/hugo_theme_robust.git
+
+To customize - mirror the folders and files from the theme.
+http://localhost:1313/ - to access local website
+
+EXTRA:
+https://gohugo.io/overview/introduction/ - docs
+https://themes.gohugo.io/ - hugo themes
+https://georgecushen.com/create-your-website-with-hugo/ - deployment
+http://convertico.com/ - convert png to ico
+
+GIT:
+https://georgecushen.com/create-your-website-with-hugo/ - Getting started with Github
+
+git add .
+git commit -m "Commit name"
+git push -u origin master

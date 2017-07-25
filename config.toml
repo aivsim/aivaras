@@ -1,0 +1,65 @@
+baseURL = "https://aivsim.github.io/"
+title = "Aivaras Šimulis"
+copyright = ""
+
+theme = "minimo"
+
+disqusShortname = ""
+googleAnalytics = ""
+Paginate = 2
+
+preserveTaxonomyNames = true
+
+[params]
+  description = "Aivaras webpage"
+  dateFormat = "2006, Jan 2"
+  copyrightOwner = "Aivaras Šimulis"
+  copyrightStartYear = "2017"
+  favicon = "favicon.ico"
+  hideEntryNavigation = false
+  customCSS = ["css/custom.css"]
+  customJS = ["js/custom.js"]
+
+[params.seo]
+  # Title Separator: - – — · • * ⋆ | ~ « » < >
+  titleSeparator = "•"
+
+[params.opengraph]
+  [params.opengraph.facebook]
+    admins = ""
+    appid = ""
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[social]
+  facebook = ""
+
+[author]
+  name = "Minimo"
+
+[author.social]
+  1facebook = "aivsim"
+  2linkedin = "in/aivsim"
+  3github = "aivsim"
+  4codepen = "avagdar"
+
+[permalinks]
+  page = "/:slug/"
+
+# [[menu.main]]
+#   name = "Repo"
+#   weight = -70
+#   identifier = "repository"
+#   url = "https://github.com/MunifTanjim/minimo"
+
+# Language Configuration
+defaultContentLanguage = "en"
+
+[languages]
+  # edit this block for your own language
+  [languages.en]
+    lang = "en"
+    languageName = "English"
+    weight = 1
