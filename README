@@ -26,3 +26,9 @@ https://georgecushen.com/create-your-website-with-hugo/ - Getting started with G
 git add .
 git commit -m "Commit name"
 git push -u origin master
+
+hugo
+cd public
+git add .
+git commit -m "Build website"
+git push -u origin master
