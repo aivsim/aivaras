@@ -1,28 +1,26 @@
++++
+date = "2017-05-18T12:00:00+06:00"
+lastmod = "2017-05-30T22:00:00+06:00"
+title = "Example config.toml"
+categories = ["Others"]
+tags = ["config","example"]
++++
+Here's an example for `config.toml` file.
+
+```toml
 baseURL = "http://www.example.com"
 title = "Minimo"
-copyright = ""
 
 theme = "minimo"
 
-disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "UA-XXXX-X"
 Paginate = 5
-
-preserveTaxonomyNames = true
 
 [params]
   description = "Minimalist theme for Hugo"
   dateFormat = "2006, Jan 2"
   copyrightOwner = "MunifTanjim"
   copyrightStartYear = "2017"
-  favicon = "favicon.ico"
-  hideEntryNavigation = false
-  customCSS = ["css/custom.css"]
-  customJS = ["js/custom.js"]
-
-[params.seo]
-  # Title Separator: - – — · • * ⋆ | ~ « » < >
-  titleSeparator = "•"
 
 [params.opengraph]
   [params.opengraph.facebook]
@@ -40,20 +38,12 @@ preserveTaxonomyNames = true
   name = "Minimo"
 
 [author.social]
-  codepen = "MunifTanjim"
-  facebook = "MunifTanjim"
-  github = "MunifTanjim/minimo"
-  instagram = "instagram"
-  twitter = "MunifTanjim"
+  github = "Minimo"
+  facebook = "Minimo"
+  twitter = "Minimo"
 
 [permalinks]
   page = "/:slug/"
-
-[[menu.main]]
-  name = "Repo"
-  weight = -70
-  identifier = "repository"
-  url = "https://github.com/MunifTanjim/minimo"
 
 # Language Configuration
 defaultContentLanguage = "en"
@@ -64,3 +54,4 @@ defaultContentLanguage = "en"
     lang = "en"
     languageName = "English"
     weight = 1
+```

@@ -9,10 +9,12 @@ FROM THE ROOT:
 > hugo server --theme=<theme-folder>
 
 FROM THEMES:
-> git clone https://github.com/dim0627/hugo_theme_robust.git
+> git clone https://github.com/MunifTanjim/minimo
+> https://themes.gohugo.io/minimo/
 
-To customize - mirror the folders and files from the theme.
-http://localhost:1313/ - to access local website
+TO CUSTOMIZE:
+> To customize - mirror the folders and files from the theme.
+> http://localhost:1313/ - to access local website
 
 EXTRA:
 https://gohugo.io/overview/introduction/ - docs

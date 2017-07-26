@@ -6,7 +6,7 @@ theme = "minimo"
 
 disqusShortname = ""
 googleAnalytics = ""
-Paginate = 2
+Paginate = 5
 
 preserveTaxonomyNames = true
 
@@ -40,10 +40,11 @@ preserveTaxonomyNames = true
   name = "Minimo"
 
 [author.social]
-  1facebook = "aivsim"
-  2linkedin = "in/aivsim"
-  3github = "aivsim"
-  4codepen = "avagdar"
+  codepen = "avagdar"
+  facebook = "aivsim"
+  github = "aivsim"
+  instagram = "instagram"
+  twitter = "aivsim"
 
 [permalinks]
   page = "/:slug/"
